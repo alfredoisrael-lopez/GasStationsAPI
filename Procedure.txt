@@ -1,0 +1,19 @@
+mfp create GasStations
+mfp add api GasStationsApp -e ios
+
+Libraries added into the project
+
+In Framework Search Paths, add the following path: $(SRCROOT)/WorklightAPI/Frameworks
+
+In Other Linker Flags, add -ObjC
+
+Bitcode Enable NO
+
+
+
+
+About the API
+
+slc loopback GasStationsAPI (with all the default options to create the loopback project)
+
+npm install loopback-connector-mongodb --save

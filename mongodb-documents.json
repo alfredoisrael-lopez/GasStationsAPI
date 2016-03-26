@@ -1,0 +1,101 @@
+{
+  "name": "Hidrosina Vertiz",
+  "qualification": 4,
+  "id": 1,
+  "comments": [
+    "Regular service, nothing exceptional"
+  ],
+  "address": {
+    "street": "Doctor Jose Maria Vertiz",
+    "number": "640",
+    "zipCode": "03020",
+    "city": "CDMX",
+    "country": "MX",
+    "neighbourhood": "Narvarte"
+  },
+  "location": {
+    "coordinates": [
+      -99.15064573287964,
+      19.397589634753206
+    ],
+    "type": "Point"
+  }
+}
+
+{
+  "name": "Hidrosina Universidad",
+  "qualification": 3,
+  "id": 2,
+  "comments": [
+    "Regular service..."
+  ],
+  "address": {
+    "street": "Av. Universidad",
+    "number": "",
+    "zipCode": "03020",
+    "city": "CDMX",
+    "country": "MX",
+    "neighbourhood": "Narvarte Poniente"
+  },
+  "location": {
+    "coordinates": [ -99.1525983810425, 19.390363914886947 ],
+    "type": "Point"
+  }
+}
+
+{
+  "name": "Estacion de Servicio No. 30, Servicio Cascadiña",
+  "qualification": 3,
+  "id": 3,
+  "comments": [],
+  "address": {
+    "street": "Caleta",
+    "number": "28",
+    "zipCode": "03020",
+    "city": "CDMX",
+    "country": "MX",
+    "neighbourhood": "Narvarte Poniente"
+  },
+  "location": {
+    "coordinates": [ -99.1464614868164, 19.401252972399917 ],
+    "type": "Point"
+  }
+}
+
+{
+  "name": "Gasolinera PEMEX",
+  "qualification": 3,
+  "id": 4,
+  "comments": [],
+  "address": {
+    "street": "Soria Esquina con Eje Central Lázaro Cardenas",
+    "number": "",
+    "zipCode": "03400",
+    "city": "CDMX",
+    "country": "MX",
+    "neighbourhood": "Alamos"
+  },
+  "location": {
+    "coordinates": [ -99.1455602645874, 19.398318260966604 ],
+    "type": "Point"
+  }
+}
+
+{
+  "name": "Gasolinera PEMEX",
+  "qualification": 4,
+  "id": 5,
+  "comments": ["Aquí tienen Diesel"],
+  "address": {
+    "street": "Xola Esquina con Eje 2 Pte Gabriel Mancera",
+    "number": "",
+    "zipCode": "03100",
+    "city": "CDMX",
+    "country": "MX",
+    "neighbourhood": "Del Valle Centro"
+  },
+  "location": {
+    "coordinates": [ -99.16184395551682, 19.396564998620665 ],
+    "type": "Point"
+  }
+}

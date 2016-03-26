@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 2,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "cfc45638-eb4b-44e0-8230-16b8a237ca45": "{\"id\":\"cfc45638-eb4b-44e0-8230-16b8a237ca45\",\"host\":\"134.168.4.204\",\"port\":8701,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"stop\",\"restart\",\"cluster-restart\",\"license-push\"],\"protocol\":\"http\",\"created\":1459009679459,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"GasStationsAPI\",\"version\":null,\"port\":3001},\"processes\":{\"pids\":[{\"parentPid\":1,\"pid\":11,\"workerId\":0,\"listeningSockets\":[],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2016-03-09T04:51:23.132Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":17,\"serviceInstanceId\":1},{\"parentPid\":11,\"pid\":59,\"workerId\":4,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3001,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2016-03-26T16:29:06.292Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":20,\"serviceInstanceId\":1}]}}"
+    },
+    "LoadBalancer": {}
+  }
+}

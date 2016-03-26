@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "compose-mongodb": {
+    "host": "horace.1.mongolayer.com",
+    "port": 10281,
+    "database": "PointsOfInterestDb?replicaSet=set-5671a0044921b75b38001402",
+    "password": "passw0rd",
+    "name": "compose-mongodb",
+    "user": "apiuser",
+    "connector": "mongodb"
+  }
+}

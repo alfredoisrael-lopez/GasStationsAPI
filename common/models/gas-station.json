@@ -1,0 +1,40 @@
+{
+  "name": "GasStation",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "qualification": {
+      "type": "number",
+      "required": true
+    },
+    "id": {
+      "type": "number",
+      "id": true
+    },
+    "comments": {
+      "type": [
+        "string"
+      ]
+    },
+    "address": {
+      "type": "object",
+      "required": true
+    },
+    "location": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
