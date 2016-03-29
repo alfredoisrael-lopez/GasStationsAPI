@@ -1,5 +1,5 @@
 var mongo = require('mongodb');
-var composeUri = 'mongodb://apiuser:passw0rd@horace.1.mongolayer.com:10281,horace.0.mongolayer.com:10281/PointsOfInterestDb?replicaSet=set-5671a0044921b75b38001402';
+var composeUri = 'mongodb://<username>:<password>@horace.1.mongolayer.com:10281,horace.0.mongolayer.com:10281/PointsOfInterestDb?replicaSet=set-5671a0044921b75b38001402';
 
 module.exports = function(GasStation) {   
     GasStation.findAroundMe = function (query, cb) {  
